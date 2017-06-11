@@ -1,0 +1,176 @@
+[debug] [2017-06-10T20:21:21.969Z] ----------------------------------------------------------------------
+[debug] [2017-06-10T20:21:21.972Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\leeje\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-10T20:21:21.972Z] CLI Version:  3.9.1
+[debug] [2017-06-10T20:21:21.972Z] Platform:     win32
+[debug] [2017-06-10T20:21:21.973Z] Node Version: v6.11.0
+[debug] [2017-06-10T20:21:21.973Z] Time:         Sun Jun 11 2017 05:21:21 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-10T20:21:21.973Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-10T20:21:21.992Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-10T20:21:21.993Z] > authorizing via signed-in user
+[debug] [2017-06-10T20:21:21.995Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fakebook-40050  
+ Sun Jun 11 2017 05:21:21 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-10T20:21:23.598Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-10T20:21:23.599Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fakebook-40050/tokens  
+ Sun Jun 11 2017 05:21:23 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-10T20:21:24.465Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\leeje\Desktop\firebase'...
+[info] 
+[debug] [2017-06-10T20:21:24.473Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fakebook-40050  
+ Sun Jun 11 2017 05:21:24 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-10T20:21:25.422Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-10T20:21:25.422Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/439990611109/clients/_:getWebAppConfig  
+ Sun Jun 11 2017 05:21:25 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-10T20:21:26.541Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-06-11T13:53:18.169Z] ----------------------------------------------------------------------
+[debug] [2017-06-11T13:53:18.171Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\leeje\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-11T13:53:18.172Z] CLI Version:  3.9.1
+[debug] [2017-06-11T13:53:18.172Z] Platform:     win32
+[debug] [2017-06-11T13:53:18.172Z] Node Version: v6.11.0
+[debug] [2017-06-11T13:53:18.177Z] Time:         Sun Jun 11 2017 22:53:18 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T13:53:18.177Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-11T13:53:18.196Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-11T13:53:18.196Z] > authorizing via signed-in user
+[debug] [2017-06-11T13:53:18.198Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-11T13:53:18.198Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/1mwGN7Tzq5QwQjeUymYcA79o6QAgpbMpP0ZhmAq0C5A',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Jun 11 2017 22:53:18 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T13:53:18.693Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-11T13:53:18.705Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fakebook-40050  
+ Sun Jun 11 2017 22:53:18 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T13:53:20.192Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-11T13:53:20.193Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fakebook-40050/tokens  
+ Sun Jun 11 2017 22:53:20 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T13:53:21.250Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\leeje\Desktop\firebase'...
+[info] 
+[debug] [2017-06-11T13:53:21.259Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fakebook-40050  
+ Sun Jun 11 2017 22:53:21 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T13:53:22.296Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-11T13:53:22.297Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/439990611109/clients/_:getWebAppConfig  
+ Sun Jun 11 2017 22:53:22 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T13:53:24.198Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-06-11T13:55:43.506Z] ----------------------------------------------------------------------
+[debug] [2017-06-11T13:55:43.509Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\leeje\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-11T13:55:43.509Z] CLI Version:  3.9.1
+[debug] [2017-06-11T13:55:43.509Z] Platform:     win32
+[debug] [2017-06-11T13:55:43.509Z] Node Version: v6.11.0
+[debug] [2017-06-11T13:55:43.510Z] Time:         Sun Jun 11 2017 22:55:43 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T13:55:43.510Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-11T13:55:43.524Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-11T13:55:43.524Z] > authorizing via signed-in user
+[debug] [2017-06-11T13:55:43.527Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fakebook-40050  
+ Sun Jun 11 2017 22:55:43 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T13:55:44.781Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-11T13:55:44.782Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fakebook-40050/tokens  
+ Sun Jun 11 2017 22:55:44 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T13:55:45.550Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\leeje\Desktop\firebase'...
+[info] 
+[debug] [2017-06-11T13:55:45.554Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fakebook-40050  
+ Sun Jun 11 2017 22:55:45 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T13:55:46.573Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-11T13:55:46.573Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/439990611109/clients/_:getWebAppConfig  
+ Sun Jun 11 2017 22:55:46 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T13:55:48.462Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-06-11T13:58:36.797Z] ----------------------------------------------------------------------
+[debug] [2017-06-11T13:58:36.800Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\leeje\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-11T13:58:36.801Z] CLI Version:  3.9.1
+[debug] [2017-06-11T13:58:36.801Z] Platform:     win32
+[debug] [2017-06-11T13:58:36.801Z] Node Version: v6.11.0
+[debug] [2017-06-11T13:58:36.802Z] Time:         Sun Jun 11 2017 22:58:36 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T13:58:36.803Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-11T13:58:36.831Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-11T13:58:36.832Z] > authorizing via signed-in user
+[debug] [2017-06-11T13:58:36.838Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fakebook-40050  
+ Sun Jun 11 2017 22:58:36 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T13:58:38.306Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-11T13:58:38.308Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fakebook-40050/tokens  
+ Sun Jun 11 2017 22:58:38 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T13:58:39.149Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\leeje\Desktop\firebase'...
+[info] 
+[debug] [2017-06-11T13:58:39.153Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fakebook-40050  
+ Sun Jun 11 2017 22:58:39 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T13:58:40.123Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-11T13:58:40.124Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/439990611109/clients/_:getWebAppConfig  
+ Sun Jun 11 2017 22:58:40 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T13:58:41.295Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-06-11T14:02:26.538Z] ----------------------------------------------------------------------
+[debug] [2017-06-11T14:02:26.541Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\leeje\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-11T14:02:26.541Z] CLI Version:  3.9.1
+[debug] [2017-06-11T14:02:26.541Z] Platform:     win32
+[debug] [2017-06-11T14:02:26.541Z] Node Version: v6.11.0
+[debug] [2017-06-11T14:02:26.542Z] Time:         Sun Jun 11 2017 23:02:26 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T14:02:26.542Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-11T14:02:26.555Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-11T14:02:26.556Z] > authorizing via signed-in user
+[debug] [2017-06-11T14:02:26.558Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fakebook-40050  
+ Sun Jun 11 2017 23:02:26 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T14:02:28.041Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-11T14:02:28.043Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fakebook-40050/tokens  
+ Sun Jun 11 2017 23:02:28 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T14:02:28.863Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\leeje\Desktop\firebase'...
+[info] 
+[debug] [2017-06-11T14:02:28.867Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fakebook-40050  
+ Sun Jun 11 2017 23:02:28 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T14:02:29.796Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-11T14:02:29.797Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/439990611109/clients/_:getWebAppConfig  
+ Sun Jun 11 2017 23:02:29 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T14:02:31.188Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-06-11T14:37:30.841Z] ----------------------------------------------------------------------
+[debug] [2017-06-11T14:37:30.843Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\leeje\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-11T14:37:30.844Z] CLI Version:  3.9.1
+[debug] [2017-06-11T14:37:30.844Z] Platform:     win32
+[debug] [2017-06-11T14:37:30.844Z] Node Version: v6.11.0
+[debug] [2017-06-11T14:37:30.846Z] Time:         Sun Jun 11 2017 23:37:30 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T14:37:30.846Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-11T14:37:30.860Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-11T14:37:30.861Z] > authorizing via signed-in user
+[debug] [2017-06-11T14:37:30.863Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fakebook-40050  
+ Sun Jun 11 2017 23:37:30 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T14:37:32.430Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-11T14:37:32.431Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fakebook-40050/tokens  
+ Sun Jun 11 2017 23:37:32 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T14:37:34.342Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\leeje\Desktop\firebase'...
+[info] 
+[debug] [2017-06-11T14:37:34.345Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fakebook-40050  
+ Sun Jun 11 2017 23:37:34 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T14:37:35.312Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-11T14:37:35.313Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/439990611109/clients/_:getWebAppConfig  
+ Sun Jun 11 2017 23:37:35 GMT+0900 (대한민국 표준시)
+[debug] [2017-06-11T14:37:36.497Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
